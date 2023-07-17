@@ -35,14 +35,14 @@ export function generateGrid(gridRows, gridCols, weighted){
 
 // generate starting node in the top right corner
 function generateStartCoordinates(gridRows, gridCols){
-    return {startRow: Math.floor(gridRows * .25), 
-        startCol: Math.floor(gridCols * .25)}
+    return {startRow: Math.floor(Math.random() * (gridRows * .30)), 
+        startCol: Math.floor(Math.random() * (gridCols * .30))}
 }
 
 // generate ending coordinates in the bottom left corner
 function generateEndCoordinates(gridRows, gridCols){
-    return {endRow: Math.floor(gridRows * .75), 
-        endCol: Math.floor(gridCols * .75)}
+    return {endRow: Math.floor(Math.random() * (gridRows * .30)) + Math.floor(gridRows * .70), 
+        endCol: Math.floor(Math.random() * (gridCols * .30)) + Math.floor(gridCols * .70)}
 }
 
 function generateWeightedElement(){
