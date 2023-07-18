@@ -44,9 +44,8 @@ export default function InfoWidget({ status }: InfoWidgetProps) {
         } else if (status === 'recursive_division_h' || status === 'recursive_division_v') {
             setReturnContainer(
                 <div id='infoText' className='infoBox'>
-                    <p className='infoText'>Recursive division works by repeatedly dividing the grid in half, each time leaving a passage </p>
-                </div>
-            )
+                    <p className='infoText'>Recursive division works by repeatedly, randomly dividing the grid, each time leaving a passage </p>
+                </div>)
         } else if (status === 'BFS') {
             setReturnContainer(
                 <div id='infoText' className='infoBox'>
@@ -56,6 +55,16 @@ export default function InfoWidget({ status }: InfoWidgetProps) {
             setReturnContainer(
                 <div id='infoText' className='infoBox'>
                     <p className='infoText'>DFS is unweighted and undirected and does not guarantee the shortest path</p>
+                </div>)
+        } else if (status === 'Dijkstra') {
+            setReturnContainer(
+                <div id='infoText' className='infoBox'>
+                    <p className='infoText'>Dijikstra is weighted and undirected and guarantees the shortest path</p>
+                </div>)
+        } else if (status === 'AStar') {
+            setReturnContainer(
+                <div id='infoText' className='infoBox'>
+                    <p className='infoText'>A* is weigthed & unweighted, is directed, and does not guarantee the shortest path</p>
                 </div>)
         }
 
