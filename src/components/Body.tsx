@@ -78,7 +78,7 @@ export default function Body() {
             const [animation, ...remainingSequence] = animation_sequence
             animation_sequence = remainingSequence
             handleAnimation(animation)
-        }, 10)
+        }, 15)
     }
 
     // Update the grid
