@@ -11,7 +11,6 @@ export default function Gridbox({ status }: GridboxProps) {
 
     // reassign the gridBox color anytime that the status changes
     useEffect(() => {
-        console.log(status)
         if (status === 'w0') {
             setColor('#88B7B5')
         } else if (status === 'start') {
