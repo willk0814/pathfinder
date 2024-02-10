@@ -1,46 +1,22 @@
-# Getting Started with Create React App
+# PathFinder
+_Will Koenig_
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+This is a project that I built to experiement further with `React` and `TypeScript` and get practice with some of the most important pathfinding algorithms.
 
-## Available Scripts
+## Interacting with Project
+If you want to experiement with the project for yourself you can find it [here](willk0814.github.io/pathfinder/).  While interacting with the project here are a few things to keep in mind.
 
-In the project directory, you can run:
+* 
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Environment Requirements and Run Instructions
+If you want to download this project and experiement with it on your own computer then you use the following.  Before beginning take some time to set up `Node.js` and `npm` if you haven't already.  You can follow the instructions [here](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm):
+* Fork or download the project so that you have it locally on your device and then navigate to the directory containing the project and run the following to install all necessary packages
+```JavaScript
+npm install
+```
+* Run the project with
+```JavaScript
+npm start
+```
+* Navigate to `localhost:3000/` to interact with the project
