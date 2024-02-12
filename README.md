@@ -13,7 +13,7 @@ When you generate a weighted grid each node has a different cost associated with
 
 * **Mazes**
 
-Each of the different maze patterns traces a pattern of cells that the algorithm can't include in their final path.  
+Each of the different maze patterns traces a pattern of cells that the algorithm can't include in its final path.  
 
 * **Weighted vs. UnWeighted Algorithms**
 
